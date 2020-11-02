@@ -25,6 +25,8 @@ int main()
     }
     cout << endl;
 
+    a.eliminar_inicio();
+    a.eliminar_final();
     a.eliminar(1);
 
     for (size_t i = 0; i < a.sizeofArray(); i++){
